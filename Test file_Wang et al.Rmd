@@ -1,0 +1,30 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+This is the example test file using the function in the "Rate_constant_K_for_protein_and_products.R"
+```{r}
+#If import excel file
+#test.df <- read.csv(file = "Lys1_L12.csv")
+
+test.df <- data.frame(x = c(1,1,1,2,2,2,5,5,5,10,10,10,20,20,20,40,40,40,60,60,60,120,120,120),
+                      y = c(0.00, 	0.00, 	0.00, 
+                            32.56,	31.70, 	31.48,
+                            46.44, 	46.00, 	50.75, 
+                            79.47, 	81.94, 	93.64, 
+                            118.03, 	114.33, 	108.16, 
+                            103.04, 	106.54, 	108.36, 
+                            129.44, 	124.22, 	113.50, 
+                            107.08, 	115.85, 	119.28)
+                      )
+
+
+Func_increase(test.df,"LYS at pH 1.2, low pepsin")
+
+ggsave("LYS at pH 1.2, low pepsin.jpeg")
+
+```
+
+
