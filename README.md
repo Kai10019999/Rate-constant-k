@@ -15,3 +15,4 @@ a .R file of function and a .rmd file as an example dataset.
 ## Contributing
 Kai Wang was the author responsible for coding. 
 
+Cite the code: [![DOI](https://www.zenodo.org/badge/476370918.svg)](https://www.zenodo.org/badge/latestdoi/476370918)
